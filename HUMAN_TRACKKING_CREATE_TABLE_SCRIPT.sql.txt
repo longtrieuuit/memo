@@ -1,7 +1,7 @@
 
 
 CREATE KEYSPACE cac_trackdb WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '2'}  AND durable_writes = true;
-CREATE TABLE cac_trackdb.d_registered_com_YOUR_TEXT_HERE (
+CREATE TABLE cac_trackdb.d_registered_com_1000000009 (
     yyyymm text,
     yyyymmdd text,
     shop_id text,
@@ -92,4 +92,4 @@ CREATE TABLE cac_trackdb.d_registered_com_YOUR_TEXT_HERE (
 
 # CHAY TUNG LENH
 
-CREATE INDEX index_on_id_d_registered_com_YOUR_TEXT_HERE ON cac_trackdb.d_registered_com_YOUR_TEXT_HERE (id);
+CREATE INDEX index_on_id_d_registered_com_1000000009 ON cac_trackdb.d_registered_com_1000000009 (id);
